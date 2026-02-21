@@ -299,7 +299,6 @@ GameObject:
   m_Component:
   - component: {fileID: 176133961}
   - component: {fileID: 176133962}
-  - component: {fileID: 176133963}
   m_Layer: 0
   m_Name: 8bit-pixel-graphic-blue-sky-background-with-clouds-vector_0
   m_TagString: Untagged
@@ -381,18 +380,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &176133963
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 176133960}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 540895c2e69ed584e9dc0b6d52dd2d2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
 --- !u!1 &358214303
 GameObject:
   m_ObjectHideFlags: 0
@@ -403,7 +390,6 @@ GameObject:
   m_Component:
   - component: {fileID: 358214304}
   - component: {fileID: 358214305}
-  - component: {fileID: 358214306}
   m_Layer: 0
   m_Name: 8bit-pixel-graphic-blue-sky-background-with-clouds-vector_0 (1)
   m_TagString: Untagged
@@ -485,18 +471,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &358214306
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 358214303}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 540895c2e69ed584e9dc0b6d52dd2d2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
 --- !u!1 &526877912
 GameObject:
   m_ObjectHideFlags: 0
@@ -923,7 +897,6 @@ GameObject:
   m_Component:
   - component: {fileID: 936417948}
   - component: {fileID: 936417949}
-  - component: {fileID: 936417950}
   m_Layer: 0
   m_Name: 8bit-pixel-graphic-blue-sky-background-with-clouds-vector_0 (1)
   m_TagString: Untagged
@@ -1005,18 +978,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &936417950
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 936417947}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 540895c2e69ed584e9dc0b6d52dd2d2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
 --- !u!1 &982110971
 GameObject:
   m_ObjectHideFlags: 0
@@ -1132,7 +1093,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1125579388}
   - component: {fileID: 1125579389}
-  - component: {fileID: 1125579390}
   m_Layer: 0
   m_Name: 8bit-pixel-graphic-blue-sky-background-with-clouds-vector_0
   m_TagString: Untagged
@@ -1214,18 +1174,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &1125579390
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125579387}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 540895c2e69ed584e9dc0b6d52dd2d2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
 --- !u!1 &1316196818
 GameObject:
   m_ObjectHideFlags: 0
@@ -1533,7 +1481,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1920083591343182922, guid: cb21cb9a23ea1594abaf5f5b19b6fa76, type: 3}
       propertyPath: m_BodyType
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2550761375858368909, guid: cb21cb9a23ea1594abaf5f5b19b6fa76, type: 3}
       propertyPath: m_LocalPosition.x
