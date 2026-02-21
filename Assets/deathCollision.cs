@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class deathCollision : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class deathCollision : MonoBehaviour
 
     void Die()
     {
+        SceneManager.LoadScene(0);
         Debug.Log("Du døde!");
         // Her kan du lave restart, animation osv.
     }
