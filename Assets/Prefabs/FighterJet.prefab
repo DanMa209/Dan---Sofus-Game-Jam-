@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3455768263184590516}
   - component: {fileID: 1920083591343182922}
   - component: {fileID: 8409921137417914515}
+  - component: {fileID: 5647867031927384856}
   m_Layer: 0
   m_Name: FighterJet
   m_TagString: Untagged
@@ -136,6 +137,23 @@ MonoBehaviour:
   speed: 8
   minY: -5
   maxY: 5
+--- !u!114 &5647867031927384856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2886454025699530146}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dba1d1e3cc8722643a9d4ef4c9ca0816, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  canControl: 0
+  thrust: 8
+  maxSpeed: 12
+  pitchTorque: 5
+  autoLevelStrength: 1.5
 --- !u!1 &3910780355280307141
 GameObject:
   m_ObjectHideFlags: 0
