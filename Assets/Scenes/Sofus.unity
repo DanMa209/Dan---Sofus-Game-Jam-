@@ -1826,6 +1826,14 @@ PrefabInstance:
       propertyPath: m_BodyType
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2113795992073597383, guid: cb21cb9a23ea1594abaf5f5b19b6fa76, type: 3}
+      propertyPath: oxygenBar
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2113795992073597383, guid: cb21cb9a23ea1594abaf5f5b19b6fa76, type: 3}
+      propertyPath: highAltitudeY
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2550761375858368909, guid: cb21cb9a23ea1594abaf5f5b19b6fa76, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.12
